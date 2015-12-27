@@ -1,0 +1,48 @@
+body {
+    background-color:black;
+    background-image: url(../images/bg.png); 
+    
+}
+#headder {
+font-size:30px;
+}
+
+
+#navbar {
+background-color: #2a2a2a;
+
+}
+
+
+
+#content {
+width: 100%;
+float: left;
+
+margin-left: 10px;
+margin-right: -350px;
+  
+font-size:15px;
+
+color: #ffffff;
+  
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+  
+
+background-color: #333;
+
+vertical-align: top;
+text-align: left;
+
+border-color: #666;
+border-style: solid;
+border-radius: 7px;
+  
+}
+
+#content h2 {
+text-decoration:underline;
+}
+
