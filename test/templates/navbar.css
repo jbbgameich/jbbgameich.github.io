@@ -1,0 +1,32 @@
+nav {
+	display:block;
+	height:2.5em;
+	background:#FFFFFF;
+	text-align:center;
+}
+
+nav ul {
+	display:block;
+}
+
+nav ul li {
+	display:inline;
+	margin:0em 0.188em 0em 0.188em;
+}
+
+nav ul li a {
+	color:#b0d93c;
+	font-size: 1.125em;
+	line-height:2.5em;
+	padding:0.563em 0.938em 0.375em 0.983em;
+	transition:background 0.2s;
+	-webkit-transition:background 0.2s;
+}
+
+nav ul li a:hover {
+	background:#DBD9D8;
+	border-bottom: 0.188em solid #E7590B;
+}
+nav ul li a.active {
+	border-bottom: 0.188em solid #E7590B;
+} 
