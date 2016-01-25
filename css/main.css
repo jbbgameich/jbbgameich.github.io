@@ -1,8 +1,13 @@
 body {
---background-image: url("http://localhost/dev/jbbgameich.github.io/images/bg.gif");
+background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ricepaper2.png");
     
 }
 
 #navbar { 
         background-color: #151516;
+}
+
+#content  {
+
+        
 }
