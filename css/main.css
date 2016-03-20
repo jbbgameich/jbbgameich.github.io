@@ -11,3 +11,7 @@ background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/p
 
         
 }
+
+#search {
+transform: scale(1.6);
+}
