@@ -67,10 +67,11 @@ function install(aEvent) { var xpiURL = aEvent.toString(); var xpi = { "Deutsche
 
       <p>
       <h3>Downloads</h3>
+      <p>Alle von hier Angebotenen Addons wurden von nicht von mir, sondern von ihren jeweiligen erstellern erstellt. Addon informationen gibt es auf addons.mozilla.org</p>
       
       
       
-       <table class="table table-hover">
+    <table class="table table-hover">
     <thead>
       <tr>
         <th>Dateiname</th>
@@ -79,10 +80,20 @@ function install(aEvent) { var xpiURL = aEvent.toString(); var xpi = { "Deutsche
       </tr>
     </thead>
     <tbody>
-       <tr>
+    <tr>
+        <td>seamonkey_2.40_amd64.deb, seamonkey_2.40_i386.deb</td>
+        <td>Seamonkey apt sources.list Quellen: <a href="#sass-i">Aus Sparkylinux Paketequellen</a> oder <a href="#sasu-i" >aus Ubuntuzilla Paketequellen</a> installieren  </td>
+        <td>siehe Beschreibung</td></td>
+      </tr>
+    <tr>
         <td>seamonkey-2.40.de.langpack.xpi</td>
-        <td>Seamonkey Sprachpaket Deutsch für Seamonkey 2.40. (nur versionsanforderung geändert. Inhalt von version 2.39 funktioniert komplett)</td>
+        <td>Seamonkey Sprachpaket Deutsch für Seamonkey 2.40. (nur versionsanforderung geändert. Inhalt von version 2.39 funktioniert komplett) <a href="https://addons.mozilla.org/en-US/seamonkey/addon/deutsch-de-language-pack-for-s/">orginal bei addons.mozilla.org ansehen. <a href="#slg-i">Instationsanleitung</a></td>
         <td><p><a href="http://jbbgameich.github.io/file/seamonkey-2.40.de.langpack.xpi" target="_top">Download</a></p><p><a href="http://jbbgameich.github.io/file/seamonkey-2.40.de.langpack.xpi" class="btn btn-success btn-sm" role="button" onClick="return install(this);">Zu Seamonkey hinzufügen</a></p></td></td>
+      </tr>
+      <tr>
+        <td>Deutsch für Chatzilla (addon-76834-latest.xpi)</td>
+        <td>Chatzilla Sprachpaket Deutsch für Seamonkey 2.40 <a href="https://addons.mozilla.org/de/firefox/addon/chatzilla-deutsch-de-language-/">bei addons.mozilla.org ansehen</a></td>
+        <td><p><a href="https://addons.mozilla.org/firefox/downloads/latest/76834/addon-76834-latest.xpi" target="_top">Download</a></p><p><a href="https://addons.mozilla.org/firefox/downloads/latest/76834/addon-76834-latest.xpi" class="btn btn-success btn-sm" role="button" onClick="return install(this);">Zu Seamonkey hinzufügen</a></p></td></td>
       </tr>
     </tbody>
   </table>
@@ -93,16 +104,24 @@ function install(aEvent) { var xpiURL = aEvent.toString(); var xpi = { "Deutsche
       <div class="well"><font size="3">Dieser Text wurde von <a href="https://www.seamonkey.at/download">seamonkey.at/download </a>übernommen</font></div>
       
             <font size="+1">
+            <h4 id="sass-i"><b>Seamonkey aus Sparky-Quellen installieren (für Debian testing)</b></h4>
+            <p><li>melden sie sich in einem Terminal (xterm, konsole, lxterminal, qterminal etc.) als root an.</li>
+            <li>erstellen sie die Datei: 
+            <div class="well">nano /etc/apt/sources.list.d/sparky.list</div></li>
+            <li>F&uuml;gen sie <div class="well"><p>## sparky</p><p> deb http://sparkylinux.org/repo testing main</p></div> in die Datei ein.</li>
+            <li>Updaten sie die Paketeliste <div class="well">apt-get update</div></li>
+            <li>Jetzt m&uuml;ssen sie nur noch den GPG-Schlüssel hinzufügen: <div class="well">apt-get install sparky-keyring</div></li></p>
             
-            <b>Installation:</b>
+            
+            <h4 id=slg-i><b>Installation von Addons:</b><h4>
             <h4><b>Methode 1</b></h4>
-            <p></p><li>Starten Sie Ihre Kopie von SeaMonkey</li> <li>Klicken Sie auf dieser Seite auf den Link &quot;Zu Seamonkey hinzufügen&quot;.</li> <li>Sie bekommen eventuell eine Informationsmeldung am oberen Rand unserer Webseite angezeigt, die Ihnen mitteilt, dass die Installation von Software durch www.jbbgameich.github.io verhindert wurde. Klicken Sie die Schaltfl&auml;che zum Installieren der Software, um fortzusetzen.</li></p>
+            <li><p>Starten Sie Ihre Kopie von SeaMonkey</li> <li>Klicken Sie auf dieser Seite auf den Link &quot;Zu Seamonkey hinzufügen&quot;.</li> <li>Sie bekommen eventuell eine Informationsmeldung am oberen Rand unserer Webseite angezeigt, die Ihnen mitteilt, dass die Installation von Software durch www.jbbgameich.github.io verhindert wurde. Klicken Sie die Schaltfl&auml;che zum Installieren der Software, um fortzusetzen.</li></p>
             
             </h4><b>Methode 2</b></h4>
             <li><p>Alternativ klicken sie auf &quot;Download&quot;, und wählen sie in Ihrem Dateimanger (Dolhpin, Thunar, Windows Explorrer) nach einem Rechtsklick &quot;Seamonkey&quot;.</li></p>
             
             
-            <p><li>SeaMonkey installiert nach Best&auml;tigung der Informationsmeldung das deutsche Paket.</li> <li>W&auml;hlen Sie im Mozilla-Browser den Men&uuml;punkt &quot;Edit&quot; (&quot;Bearbeiten&quot;), darunter &quot;Preferences...&quot; (&quot;Einstellungen...&quot;). Dort &ouml;ffnen Sie im der Kategorie &quot;Appearance&quot; (&quot;Erscheinungsbild&quot;).</li> <li>Dort w&auml;hlen Sie die Sprache &quot;German&quot; (&quot;Deutsch&quot;) aus dem Auswahlfeld im unteren Bereich des Fensters.</li> <li>Klicken Sie OK, beenden Sie SeaMonkey und starten Sie das Programm neu. Tun Sie dies, so wird die Oberfl&auml;che in deutscher Sprache angezeigt.</li> </ol> <p><b>
+            <p><li>SeaMonkey installiert nach Best&auml;tigung der Informationsmeldung das deutsche Paket.</li> <li>W&auml;hlen Sie im Mozilla-Browser den Men&uuml;punkt &quot;Edit&quot; (&quot;Bearbeiten&quot;), darunter &quot;Preferences...&quot; (&quot;Einstellungen...&quot;). Dort &ouml;ffnen Sie im der Kategorie &quot;Appearance&quot; (&quot;Erscheinungsbild&quot;).</li> <li>Dort w&auml;hlen Sie die Sprache &quot;German&quot; (&quot;Deutsch&quot;) aus dem Auswahlfeld im unteren Bereich des Fensters.</li> <li>Klicken Sie OK, beenden Sie SeaMonkey und starten Sie das Programm neu. Tun Sie dies, so wird die Oberfl&auml;che in deutscher Sprache angezeigt.</li> </ol> </p><b>
            
             </font>
 
