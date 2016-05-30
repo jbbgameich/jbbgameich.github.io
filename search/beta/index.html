@@ -4,10 +4,10 @@
   <title>im Internet Suchen</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/bootstrap.css">
-  <link rel="stylesheet" href="..//css/main.css">
-  <script src="../jquery/jquery.min.js"></script>
-  <script src="../jquery/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../../css/bootstrap.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <script src="../../jquery/jquery.min.js"></script>
+  <script src="../../jquery/bootstrap.min.js"></script>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   </head>
 
@@ -23,7 +23,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand"> <img src="../favicon.png" width="40" height="40" alt="JBB ">
+      <a class="navbar-brand"> <img src="../../favicon.png" width="40" height="40" alt="JBB ">
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,16 +33,18 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MENU<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#"></a></li>
+            <li><a href="https://beta.duckduckgo.com/privacy">Datenschutz</a></li>
+            <li><a href="https://duck.co/help">Hilfe</a></li>
+            <li><a href="https://beta.duckduckgo.com/about">mehr &uumlber Duckduckgo erfahren</a></li>
             <li><a href="https://de.wikipedia.org/w/index.php?search=&title=Spezial%3ASuche&go=Artikel">Auf Wikipedia suchen</a></li>
           </ul>
         </li>
  	<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Andere Suchmaschinen<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="ducksearch.html">Duckduckgo</a></li>
             <li><a href="qwant.html">Qwant</a></li>
             <li><a href="google.html">Google</a></li>
-
+            <li><a href="ixquick.html">Ixquick</a></li>
           </ul>
         </li>
       </ul>
@@ -54,35 +56,48 @@
   </div><!-- /.container-fluid -->
 </nav>
 </div>
-
 <body>
+
+<div class="well" id="searcharea"
   <body bgcolor="#FFFFFF" text="#000000">
     <center>
-      <form method="get" action="https://www.ixquick.com/do/search/">
+      <form method="get" action="http://duckduckgo.com/html">
         <table bgcolor="#ffffff">
           <tbody>
             <tr>
               <td align="center" nowrap="nowrap" height="40" valign="top"> 
-              <img src="../images/suche.png" height="170" alt="Suuche" align="middle" border="0"> <br>
+              <img src="../../images/suche.png" height="170" alt="Suuche" align="middle" border="0"> <br>
                 <div id="search">
-                <p><small>Ixquick wird als Suchmaschine verwendet</small></p>
-                <label for="sbi" style="display: none">Geben Sie Ihre
-                  Suchbegriffe ein</label> <input name="q" size="55"
-                  maxlength="255" id="sbi" type="text"><br>
-                <label for="sbb" style="display: none">Suchformular
-                  senden</label> <input name="sa" value="Suchen" id="sbb" class="btn-success" type="submit">
-	      </div>
-	      </td>
-	    </tr>
-	  </tbody>
+		  <p><small>Duckduckgo wird als Suchmaschine verwendet</small></p>
+		  <label for="sbi" style="display: none">Geben Sie Ihre
+		    Suchbegriffe ein</label> <input name="q" size="55"
+		    maxlength="255" id="sbi" type="text"><br>
+		  <label for="sbb" style="display: none">Suchformular senden</label> 
+		  <p>
+		  <input name="sa" value="Suchen" id="sbb" class="btn btn-primary btn-xs" type="submit">
+		  </p>
+		 </div>
+		</td>
+	      </tr>
+	   </tbody>
 	</table>
       </form>
+</div>
+
+
+<div id="ipaddr" align="center">
+<div class="well">
+<p>Ihre Browser Informationen sind:</p>
+<img class="img-responsive img-rounded" src="http://www.wieistmeineip.de/ip-adresse/?size=468x60" border="0" width="468" height="60" alt="Your ip could not be shown" /></a><small><p>service powered by <a href=https://www.wieistmeineip.de/>wieistmeineip</a></p></small>
+</div>
+</div>
+
+
 </center>
 </body>
-
   <footer class="footer">
       <div class="container">
-        <p class="text-muted"><a href="https://ixquick.com/about">About Ixquick</a></p>
+        <p class="text-muted"><a href="https://duckduckgo.com/about">About Duckduckgo</a></p>
       </div>
     </footer>
 </html>
