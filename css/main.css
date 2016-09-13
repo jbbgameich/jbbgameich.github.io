@@ -7,29 +7,8 @@ background-image: url("https://subtlepatterns2015.subtlepatterns.netdna-cdn.com/
         background-color: #151516;
 }
 
-#content  {
-
-        
-}
-
-#search {
-transform: scale(1.6);
-}
-
-#navbar-green {
-        background-color: #80ff80;
-
-}
 
 html, body {
     height: 100%;
     min-height: 100%;
-}
-
-footer {
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #d6f5d6;
-    word-spacing: +4px;
 }

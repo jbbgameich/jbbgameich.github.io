@@ -4,99 +4,58 @@
   <title>im Internet Suchen</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../../css/bootstrap.css">
-  <link rel="stylesheet" href="../../css/main.css">
-  <script src="../../jquery/jquery.min.js"></script>
-  <script src="../../jquery/bootstrap.min.js"></script>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  </head>
-
-<div id="navbar">
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand"> <img src="../../favicon.png" width="40" height="40" alt="JBB ">
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MENU<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="https://beta.duckduckgo.com/privacy">Datenschutz</a></li>
-            <li><a href="https://duck.co/help">Hilfe</a></li>
-            <li><a href="https://beta.duckduckgo.com/about">mehr &uumlber Duckduckgo erfahren</a></li>
-            <li><a href="https://de.wikipedia.org/w/index.php?search=&title=Spezial%3ASuche&go=Artikel">Auf Wikipedia suchen</a></li>
-          </ul>
-        </li>
- 	<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Andere Suchmaschinen<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="qwant.html">Qwant</a></li>
-            <li><a href="google.html">Google</a></li>
-            <li><a href="ixquick.html">Ixquick</a></li>
-          </ul>
-        </li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-      </form>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div>
+	<!--Get all the stylesheets-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://jbbgameich.github.io/css/w3.css"  rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="../../css/main.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
 <body>
 
-<div class="well" id="searcharea"
-  <body bgcolor="#FFFFFF" text="#000000">
-    <center>
-      <form method="get" action="http://duckduckgo.com/html">
-        <table bgcolor="#ffffff">
-          <tbody>
-            <tr>
-              <td align="center" nowrap="nowrap" height="40" valign="top"> 
-              <img src="../../images/suche.png" height="170" alt="Suuche" align="middle" border="0"> <br>
-                <div id="search">
-		  <p><small>Duckduckgo wird als Suchmaschine verwendet</small></p>
-		  <label for="sbi" style="display: none">Geben Sie Ihre
-		    Suchbegriffe ein</label> <input name="q" size="55"
-		    maxlength="255" id="sbi" type="text"><br>
-		  <label for="sbb" style="display: none">Suchformular senden</label> 
-		  <p>
-		  <input name="sa" value="Suchen" id="sbb" class="btn btn-primary btn-xs" type="submit">
-		  </p>
-		 </div>
-		</td>
-	      </tr>
-	   </tbody>
-	</table>
-      </form>
-</div>
+    <!--Navigation-->
+	<ul class="w3-navbar w3-card-2 w3-dark-grey w3-large">
+	<li><a href="https://jbbgameich.github.io/index.html"><img src="https://jbbgameich.github.io/favicon.png" height="40"></a></li>
+	<li><a href="https://jbbgameich.github.io/programming/">Python</a></li>
+	<li><a href="https://gamerbude.github.io/letsplays.html">Let's Plays</a></li>
+	
+	<li class="w3-dropdown-hover">
+		<a href="https://jbbgameich.github.io/search/">Websuche</a>
+		<div class="w3-dropdown-content w3-white w3-card-4">
+		<a href="https://jbbgameich.github.io/search/ducksearch.html">DuckDuckGo</a>
+		<a href="https://jbbgameich.github.io/search/ducksearch.html">Google</a>
+		<a href="https://jbbgameich.github.io/search/qwant.html">Qwant</a>
+		<a href="https://jbbgameich.github.io/search/ixquick.html">Ixquick</a>		
+	</div>
+	</li>
+	
+	<li class="w3-dropdown-hover">
+		<a href="https://jbbgameich.github.io/minetest">Minetest</a>
+		<div class="w3-dropdown-content w3-white w3-card-4">
+		<a href="https://jbbgameich.github.io/minetest/agriculture.html">Agriculture Mod</a>
+		<a href="https://forum.minetest.net/viewtopic.php?f=9&t=11036">Fachwerk Mod (Minetest Forum)</a>
+		</div>
+	</li>
+	</ul>
 
+    <!--Search-->
+	
+    <div align="center" class="w3-animate-opacity w3-animate-bottom w3-center w3-container w3-margin w3-leftbar w3-border-green" id="search">
+        <form method="get" action="http://duckduckgo.com/html">
+            <img src="../../images/suche.png" class="w3-center" height="200" alt="Suuche">
+            <p>Duckduckgo wird als Suchmaschine verwendet</p>
+            <input class="w3-input w3-border w3-hover-light-grey w3-center" style="width: 50" size="50" name="q" maxlength="255" id="sbi" type="text"><br>
+            <input name="sa" value="Suchen" id="sbb" class="w3-btn w3-blue w3-round" type="submit">
+        </form>
+    </div>
 
-<div id="ipaddr" align="center">
-<div class="well">
-<p>Ihre Browser Informationen sind:</p>
-<img class="img-responsive img-rounded" src="http://www.wieistmeineip.de/ip-adresse/?size=468x60" border="0" width="468" height="60" alt="Your ip could not be shown" /></a><small><p>service powered by <a href=https://www.wieistmeineip.de/>wieistmeineip</a></p></small>
-</div>
-</div>
-
-
-</center>
 </body>
-  <footer class="footer navbar navbar navbar-default navbar-fixed-bottom">
-      <div class="container">
+  <footer class="navbar-fixed-bottom w3-display-left w3-color w3-light-grey">
+      <div class="w3-container">
         <p class="text-muted"><a href="https://duckduckgo.com/about">About Duckduckgo</a></p>
       </div>
     </footer>
