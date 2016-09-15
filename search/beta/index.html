@@ -45,13 +45,28 @@
     <!--Search-->
 	
     <div align="center" class="w3-animate-opacity w3-animate-bottom w3-center w3-container w3-margin w3-leftbar w3-border-green" id="search">
-        <form method="get" action="http://duckduckgo.com/html">
+        <form id="url" method="get" action="http://duckduckgo.com/">
             <img src="../../images/suche.png" class="w3-center" height="200" alt="Suuche">
-            <p>Duckduckgo wird als Suchmaschine verwendet</p>
+            <br>
+            <div class="w3-dropdown-hover">
+            <p><div id="searchengine" class="w3-btn w3-round w3-light-grey">Duckduckgo</div> wird als Suchmaschine verwendet</p>
+            <div class="w3-dropdown-content w3-border">
+                <a href="#">Google</a>
+                <a href="#">Ixquick</a>
+                <a href="#">Qwant</a>
+            </div>
+            </div>
             <input class="w3-input w3-border w3-hover-light-grey w3-center" style="width: 50" size="50" name="q" maxlength="255" id="sbi" type="text"><br>
-            <input name="sa" value="Suchen" id="sbb" class="w3-btn w3-blue w3-round" type="submit">
+            <input name="sa" value="Suchen" id="sbb" class="w3-btn w3-blue w3-round btn-search" type="submit"></input>
         </form>
     </div>
+    
+    <script>
+    var engine = "Duckduckgo";
+    var url = "https://google.de/
+    document.getElementById("searchengine").innerHTML = engine;
+    document.getElementById("url").action = url;
+    </script>
 
 </body>
   <footer class="navbar-fixed-bottom w3-display-left w3-color w3-light-grey">

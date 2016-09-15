@@ -1,12 +1,18 @@
 body {
-background-image: url("https://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ricepaper2.png");
-    
+background-color: #fff;
 }
 
 #navbar { 
         background-color: #151516;
 }
 
+.btn-search {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/8/8e/Feedbin-Icon-home-search.svg') no-repeat left;
+    margin-left: 2px;
+    margin-top: 2px;
+    padding-left: 38px;
+    height: 40px;
+}
 
 html, body {
     height: 100%;
