@@ -3,4 +3,6 @@ Disallow: /
 Disallow: /test/timbernerd/game
 Disallow: /test/timbernerd/game/index.html
 Disallow: /test/templates
+Disallow: /test/file
+Disallow: /search/old
 Disallow: /test/inofficial
