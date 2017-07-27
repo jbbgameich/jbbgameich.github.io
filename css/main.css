@@ -1,0 +1,31 @@
+@import url("w3.css");
+
+body {
+    background-color: #fff;
+}
+
+.btn-search {
+    margin-left: 2px;
+    margin-top: 2px;
+    padding-left: 38px;
+    height: 40px;
+}
+
+body {
+    height: 90%;
+    min-height: 100%;
+}
+
+table {
+	border:1px solid #ddd!important
+	w3-table
+	border-collapse:collapse;
+	border-spacing:0;width:100%;
+	display:table
+}
+
+td,th {
+	border: 1px solid lightgrey;
+	padding: 6px 8px;
+	font-size: 20px
+}

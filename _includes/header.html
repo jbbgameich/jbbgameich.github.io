@@ -1,0 +1,42 @@
+<!--Navigation-->
+<div class="w3-sidebar w3-light-grey w3-card-4 w3-animate-left" style="width:200px" id="mySidebar">
+	<div class="w3-bar w3-blue">
+		<span class="w3-bar-item w3-padding-16">Navigation</span>
+		<button onclick="w3_close()" class="w3-bar-item w3-button w3-right w3-padding-16" title="close Sidebar">&times;</button>
+	</div>
+	
+	<div class="w3-bar-block">
+		<a class="w3-bar-item w3-button w3-hover-light-blue" href="/">Home</a>
+	</div>
+	
+	<div class="w3-bar-block">
+		<a class="w3-bar-item w3-button w3-hover-light-blue" href="/blog.html">Blog</a>
+	</div>
+	
+	<div class="w3-bar-block">
+		<a class="w3-bar-item w3-button w3-hover-light-blue" href="/minetest">Minetest</a>
+	</div>
+	
+	<div class="w3-bar-block">
+		<a class="w3-bar-item w3-button w3-hover-light-blue" href="/search">Suche</a>
+	</div>
+</div>
+
+<div id="Nav" class="w3-navbar w3-card-2 w3-dark-grey w3-large">
+	<button title="open Sidebar" id="openNav" class="w3-bar-item w3-left w3-button" onclick="w3_open()">&#9776;</button>
+</div>
+
+<script>
+document.getElementById("mySidebar").style.display = "none";
+
+function w3_open() {
+	document.getElementById("main").style.marginLeft = "180px";
+	document.getElementById("mySidebar").style.width = "180px";
+	document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+	document.getElementById("main").style.marginLeft = "0";
+	document.getElementById("mySidebar").style.display = "none";
+	document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
