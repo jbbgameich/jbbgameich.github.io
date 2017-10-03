@@ -1,22 +1,18 @@
-<!DOCTYPE html>
 <html>
-	
+
 	{% include head.html %}
-	
+
 	<body>
 
 		{% include header.html %}
 
-		<div id="main">
+		<div id="main" class="w3-card-2 w3-round w3-padding-4 w3-animate-opacity">
+			<div class="wrap">
+			{{ content }}
+			</div>
+		<div>
+	</body>
 
-			<div class="w3-card-2 w3-round w3-padding-4 w3-margin w3-animate-opacity">
-				<div class="wrap">
-				{{ content }}
-				</div>
-			<div>
-		</div>
-		
-		{% include footer.html %}
-		
-	<body>
+	{% include footer.html %}
+
 </html>

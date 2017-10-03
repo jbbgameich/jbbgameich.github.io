@@ -1,19 +1,31 @@
+@import url("bootstrap.css");
 @import url("w3.css");
+@import url("font-awesome.min.css");
 
 body {
-    background-color: #fff;
+	background-image: url("../img/bg.png");
 }
 
-.btn-search {
-    margin-left: 2px;
-    margin-top: 2px;
-    padding-left: 38px;
-    height: 40px;
+#main {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
 }
 
-body {
-    height: 90%;
-    min-height: 100%;
+article {
+	line-height: 30px;
+}
+
+img[alt=AboutLogo] { 
+	float: left;
+}
+
+img[alt=BlogImage] {
+	max-width: 300;
+	max-height: 300;
+	float: right;
+	padding: 5;
 }
 
 table {
@@ -24,7 +36,7 @@ table {
 	display:table
 }
 
-td,th {
+td, th {
 	border: 1px solid lightgrey;
 	padding: 6px 8px;
 	font-size: 20px

@@ -6,7 +6,7 @@ permalink: /minetest/
 
 | Modname                 | Description                                                                                | Download      |
 |-------------------------|--------------------------------------------------------------------------------------------|---------------|
-| Agriculture             | A Mod wich adds different faring plants like corn or strawberrys based on the farming API. | [Download]    |
+| Agriculture             | A Mod wich adds different farming plants like corn or strawberrys based on the farming API.| [Download]    |
 | Fachwerk                | A mod that adds timber-framed blocks                                                       | [Download][1] |
 | Admintools              | Mod for fireglow and koerb. Adds tools wich can crack blocks in 0,3 seconds                | [Download][2] |
 | Roof Mod                | small mod wich adds different types of roof                                                | [Download][3] |
