@@ -13,6 +13,12 @@ body {
 	background-color: white;
 }
 
+@media screen and (max-width: 1000px) {
+	#main {
+		width: 100%;
+	}
+}
+
 article {
 	line-height: 30px;
 }
