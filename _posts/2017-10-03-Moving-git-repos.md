@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My experiences with moving git repositories"
-date:   2017-10-03 12:01:00 +1:00
+date:   2017-10-03 12:01:00 +2:00
 categories: git
 ---
 
