@@ -3,7 +3,7 @@ layout: post
 title:  "Debian and OpenRC"
 date:   2017-10-15 17:28:00 +2:00
 categories: debian
---- 
+---
 
 Today I experimented with using the OpenRC initsystem in debian. I did all the steps in a virtual machine, but they should work on real hardware too.
 
