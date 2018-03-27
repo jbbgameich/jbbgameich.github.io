@@ -2,13 +2,19 @@
 	<div class="footer-icons">
 
 		<p class="text-muted" align="left">
-		Copyright (C) JBBgameich 2017
+		Copyright (C) JBBgameich 2017 - 2018
 		</p>
 
 		<p align="right">
-		<a href="https://github.com/JBBgameich" target="_blank"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Github</a>
-		<a href="https://diasp.org/people/8370c8909b860133979f782bcb452bd5" target="_blank"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> Diaspora*</a>
-		<a href="xmpp:jbb@diasp.org"><i class="fa fa-commenting-o" aria-hidden="true"></i> XMPP</a>
+		{% if site.github_username %}
+		<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Github</a>
+		{% endif %}
+        {% if site.diaspora_url %}
+		<a href="{{ site.diaspora_url }}" target="_blank"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> Diaspora*</a>
+		{% endif %}
+		{% if site.xmpp %}
+		<a href="xmpp:{{ site.xmpp }}"><i class="fa fa-commenting-o" aria-hidden="true"></i> XMPP</a>
+		{% endif %}
 		</p>
 	</div>
 </footer>
