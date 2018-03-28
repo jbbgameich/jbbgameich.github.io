@@ -34,6 +34,11 @@ img[alt=BlogImage] {
 	padding: 5;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 table {
 	border:1px solid #ddd!important
 	w3-table
