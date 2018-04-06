@@ -10,7 +10,7 @@ layout: default
 		{% for post in site.posts %}
 		<li>
 			<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-			<span class="post-date"><p class="muted">{{ post.date | date: "%b %-d, %Y" }}<p></span>
+			<p class="muted post-date">{{ post.date | date: "%b %-d, %Y" }}<p>
 			<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 		</li>
 		{% endfor %}

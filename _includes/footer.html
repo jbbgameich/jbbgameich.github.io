@@ -1,11 +1,11 @@
 <footer class="w3-container w3-light-grey">
 	<div class="footer-icons">
 
-		<p class="text-muted" align="left">
+		<div id="footer-left" class="text-muted">
 		Copyright (C) JBBgameich 2017 - 2018
-		</p>
+		</div>
 
-		<p align="right">
+		<div id="footer-right">
 		{% if site.github_username %}
 		<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Github</a>
 		{% endif %}
@@ -15,6 +15,6 @@
 		{% if site.xmpp %}
 		<a href="xmpp:{{ site.xmpp }}"><i class="fa fa-commenting-o" aria-hidden="true"></i> XMPP</a>
 		{% endif %}
-		</p>
+		</div>
 	</div>
 </footer>
