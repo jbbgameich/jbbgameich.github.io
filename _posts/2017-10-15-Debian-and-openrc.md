@@ -7,7 +7,7 @@ categories: debian
 
 Today I experimented with using the OpenRC initsystem in debian. I did all the steps in a virtual machine, but they should work on real hardware too.
 
-After installing debian in the VM using a netinstall image of debian stretch, I could directly start converting the system to OpenRC. [This post](http://linuxmafia.com/kb/Debian/openrc-conversion.html) was very helpful for me. (Remind me to fix the Link color on this blog, "This post" is a link)
+After installing debian in the VM using a netinstall image of debian stretch, I could directly start converting the system to OpenRC. [This post](https://linuxmafia.com/kb/Debian/openrc-conversion.html) was very helpful for me. (Remind me to fix the Link color on this blog, "This post" is a link)
 
 ```
 apt install openrc 
