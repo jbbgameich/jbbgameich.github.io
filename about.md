@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-![AboutLogo](https://diasp.org/uploads/images/thumb_large_5ccb2d64e203ec804a5d.png)
+![AboutLogo](/img/favicon_symbolic.svg){:width="300"}
 
 I'm a programmer, hobby photographer, Debian packager, currently inactive Minetest modder and texturepack maker and interested in embedded and mobile devices development.
 
