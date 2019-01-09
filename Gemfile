@@ -21,7 +21,7 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-watch", "~> 2.0.0"
+   gem "jekyll-watch", "~> 2.1.2"
    gem "jekyll-minifier", "~> 0.1"
 end
 
