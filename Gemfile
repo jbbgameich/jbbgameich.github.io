@@ -22,7 +22,7 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem "jekyll-watch", "~> 2.1.2"
-   gem "jekyll-minifier", "~> 0.1"
+   gem "jekyll-tidy", "~> 0.2.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
