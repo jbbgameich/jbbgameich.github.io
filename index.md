@@ -1,4 +1,4 @@
 ---
 layout: blog
-title: JBBgameich's Blog
+title: JBB's blog
 ---
