@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Installation
-permalink: /debian-pm/install
+permalink: /debian-pm/install/
 ---
 First, download the following images:
  * [rootfs image](https://archive.kaidan.im/debian-pm/images/)

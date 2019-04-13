@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Licenses
-permalink: /licenses
+permalink: /licenses/
 --- 
 
 Copyright (C) 2013 Subtle Patterns, Toptal Designers (CC BY-SA 3.0):
