@@ -3,8 +3,10 @@ layout: page
 title: Installation
 permalink: /debian-pm/install/
 ---
+
+# Halium devices
 First, download the following images:
- * [rootfs image](https://archive.kaidan.im/debian-pm/images/)
+ * [rootfs image](https://archive.kaidan.im/debian-pm/images/halium)
  * [halium system image](https://archive.kaidan.im/halium/)
  * [halium hybris-boot image](https://archive.kaidan.im/halium/)
 
@@ -31,3 +33,14 @@ Depending on the device, you can use fastboot or heimdal to do it.
 
 On fastboot capable devices, it can be installed using
 `fastboot flash boot hybris-boot.img`
+
+# Pinephone
+Download the [system image for the pinephone device](https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/)
+This image can directly be flashed to an SD-Card or EMMC chip.
+
+To find out which kernel device was assigned to your SD-Card or EMMC, run `sudo fdisk -l` and look for the correct device.
+Once you know the device, for example /dev/sdb, you can flash the image to it using dd.
+
+```zcat debian-pinephone-plasma-mobile-testing-arm64.img.gz | sudo dd status=progress of=/dev/sdb```
+
+The flashing will take a lot of time depending on the speed of your storage device.
