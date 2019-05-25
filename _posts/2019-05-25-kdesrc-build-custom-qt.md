@@ -19,6 +19,7 @@ Since kdesrc-build should be available anywhere on the system, not just in its o
 Please remember to adapt the path according to where you cloned kdesrc-build to.
 ```
 echo "export PATH=~/kde/src/kdesrc-build:$PATH" >> ~/.profile
+source ~/.profile
 ```
 
 Next, the initial setup needs to be performed:
