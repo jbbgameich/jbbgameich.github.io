@@ -43,3 +43,8 @@ This should be it! Have fun compiling up to date KDE software using an up to dat
 ```
 kdesrc-build kirigami --include-dependencies
 ```
+
+To activate your newly created environment, you can use
+```
+source ~/.config/kde-env-master.sh
+```
