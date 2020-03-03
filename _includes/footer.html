@@ -2,14 +2,14 @@
 	<div class="footer-icons">
 
 		<div id="footer-left" class="text-muted">
-		Copyright (C) Jonah Brüchert 2017 - 2020
+		Copyright © Jonah Brüchert 2017 - 2020
 		</div>
 
 		<div id="footer-right">
 		{% if site.github_username %}
 		<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Github</a>
 		{% endif %}
-        {% if site.diaspora_url %}
+	        {% if site.mastodon_url %}
 		<a href="{{ site.mastodon_url }}" target="_blank"><i class="fa fa-comments fa-fw" aria-hidden="true"></i> Mastodon</a>
 		{% endif %}
 		{% if site.xmpp %}
