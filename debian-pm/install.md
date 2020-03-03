@@ -44,3 +44,9 @@ Once you know the device, for example /dev/sdb, you can flash the image to it us
 ```zcat debian-pinephone-plasma-mobile-testing-arm64.img.gz | sudo dd status=progress of=/dev/sdb```
 
 The flashing will take a lot of time depending on the speed of your storage device.
+
+# Workarounds
+If the plasmashell crashes at the first startup, it will not try to place the proper widgets again (taskpanel etc.), as a result you will only see the homescreen after the next reboot, missing some parts.
+
+To workaround this, switch the headphone killswitch to off, and connect your headphone serial debugging cable. You can the log in as `phablet`/`1234`.
+Then run `rm rm ~/.config/plasma-org.kde.plasma.phone-appletsrc ~/.config/plasmashellrc`.
