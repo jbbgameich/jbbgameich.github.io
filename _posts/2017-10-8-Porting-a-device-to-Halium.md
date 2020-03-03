@@ -21,7 +21,7 @@ After flashing the hybris-recovery.img file, (hybris-boot.img did not work as ex
 </video>
 **The blinking Notification LED**
 
-However most of the libhybris tests still fail, exept test_vibrator. I could also mix nice colours using my devices notification LED, by echo-ing into /sys/class/led/ virtual files of the kernel. This even worked when the container was still broken. I'll keep working on it over the next weeks and month, but I can only spend much time on it on the weekends. An other problem is that this is my only phone, and so I have to flash it back to android every time after working on the port. I hope to be a Plasma Mobile or UBports user soon, but let's see how far I come.
+However most of the libhybris tests still fail, exept test_vibrator. I could also mix nice colours using my devices notification LED, by echo-ing into /sys/class/led/ virtual files of the kernel. This even worked when the container was still broken. I'll keep working on it over the next weeks and month, but I can only spend much time on it on the weekends. An other problem is that this is my only phone, and so I have to flash it back to android every time after working on the port. I hope to be a Plasma Mobile or UBports user soon, but let's see how far I get.
 
 If there isn't anything interesting to tell, I won't write a new blog post on this too soon. If you want to know what happens, keep track of the porting issues (like [my one](https://github.com/Halium/projectmanagement/issues/21)
 ) or join us on Matrix (halium:matrix.org), irc (#halium on freenode) or [Telegram](https://t.me/halium).

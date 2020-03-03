@@ -5,7 +5,7 @@ date:   2017-12-10 13:49:30 +1:00
 categories: debian halium
 ---
 
-In the last weeks I got the impression that many people think of debian packaging as as a sort of black magic. It may seem like it is, because it's sometimes hard to get started, but it's quite easy once you know a few basic commands.
+Over the last weeks I got the impression that many people think of debian packaging as as a sort of black magic. It may seem like it is, because it's sometimes hard to get started, but it's quite easy once you know a few basic commands.
 
 First, setting up a few environment variables saves a lot of time later.
 * `export EMAIL=""`
@@ -28,7 +28,7 @@ If you are lucky, a quick `dpkg-buildpackage` already generates a working deb pa
 
 In case your package doesn't build yet, you need to modify the rules file. It tells dpkg-buildpackage how to generate the binaries from the sourcecode. You can add your own build instructions by overring automatic targets.
 
-Adding `dh_auto_configure:` allows you to add your own configure steps. A typical configuring step is e.g. `cmake .`
+Adding `override_dh_auto_configure:` allows you to add your own configure steps. A typical configuring step is e.g. `cmake .`
 The same works for example with `dh_auto_build` for the building step. A typical building step is `make`.
 Please don't override the targets if they worked automatically!
 
