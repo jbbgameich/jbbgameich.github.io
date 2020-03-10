@@ -35,15 +35,19 @@ On fastboot capable devices, it can be installed using
 `fastboot flash boot hybris-boot.img`
 
 # Pinephone
-Download the [system image for the pinephone device](https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/)
+Download the [system image for the pinephone device](https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/).
 This image can directly be flashed to an SD-Card or EMMC chip.
 
 To find out which kernel device was assigned to your SD-Card or EMMC, run `sudo fdisk -l` and look for the correct device.
 Once you know the device, for example /dev/sdb, you can flash the image to it using dd.
 
-```zcat debian-pinephone-plasma-mobile-testing-arm64.img.gz | sudo dd status=progress of=/dev/sdb```
+```zcat debian-pinephone-plasma-mobile-testing-arm64.img.gz | sudo dd status=progress of=/dev/mmcblk0```
 
 The flashing will take a lot of time depending on the speed of your storage device.
+
+**Alternative**: If you plan to flash nightly builds often, and don't need a local copy of the image, you can directly flash
+the image to your SD-Card using bmaptool:
+``sudo bmaptool copy https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/debian-pinephone-plasma-mobile-testing-arm64.img.gz --bmap https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/debian-pinephone-plasma-mobile-testing-arm64.img.bmap /dev/mmcblk0``
 
 # Workarounds
 If the plasmashell crashes at the first startup, it will not try to place the proper widgets again (taskpanel etc.), as a result you will only see the homescreen after the next reboot, missing some parts.
