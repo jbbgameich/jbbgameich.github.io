@@ -47,7 +47,8 @@ The flashing will take a lot of time depending on the speed of your storage devi
 
 **Alternative**: If you plan to flash nightly builds often, and don't need a local copy of the image, you can directly flash
 the image to your SD-Card using bmaptool:
-``sudo bmaptool copy https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/debian-pinephone-plasma-mobile-testing-arm64.img.gz --bmap https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/debian-pinephone-plasma-mobile-testing-arm64.img.bmap /dev/mmcblk0``
+
+```sudo bmaptool copy https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/debian-pinephone-plasma-mobile-testing-arm64.img.gz --bmap https://archive.kaidan.im/debian-pm/images/pinephone/plasma-mobile/debian-pinephone-plasma-mobile-testing-arm64.img.bmap /dev/mmcblk0```
 
 # Workarounds
 If the plasmashell crashes at the first startup, it will not try to place the proper widgets again (taskpanel etc.), as a result you will only see the homescreen after the next reboot, missing some parts.
