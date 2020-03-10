@@ -48,5 +48,9 @@ The flashing will take a lot of time depending on the speed of your storage devi
 # Workarounds
 If the plasmashell crashes at the first startup, it will not try to place the proper widgets again (taskpanel etc.), as a result you will only see the homescreen after the next reboot, missing some parts.
 
-To workaround this, switch the headphone killswitch to off, and connect your headphone serial debugging cable. You can the log in as `phablet`/`1234`.
-Then run `rm rm ~/.config/plasma-org.kde.plasma.phone-appletsrc ~/.config/plasmashellrc`.
+To workaround this,
+* pinephone: switch the headphone killswitch to off, and connect your headphone serial debugging cable. Then use picocom to connect `sudo picocom /dev/ttyUSB0 -b 115200`
+* Halium devices: connect the USB cable and ssh into `phablet@10.15.19.82`.
+
+You can then log in as `phablet` / `1234`.
+Then run `rm ~/.config/plasma-org.kde.plasma.phone-appletsrc ~/.config/plasmashellrc`.
