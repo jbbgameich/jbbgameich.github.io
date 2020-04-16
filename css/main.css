@@ -1,3 +1,4 @@
+
 @import url("w3.css");
 @import url("font-awesome.min.css");
 
@@ -10,7 +11,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	color: #0A0A0A;
+	color: #22303e  ;
 }
 
 @media screen and (max-width: 1000px) {
@@ -58,4 +59,14 @@ td, th {
 
 .post-link {
 	text-decoration: none;
+}
+
+.main-navigation {
+	background-color: #27ae60;
+	color: #fcfcfc;
+}
+
+h3,h1,h2 {
+	color: #27ae60;
+	font-weight: bold;
 }
