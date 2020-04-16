@@ -19,10 +19,6 @@ body {
 	}
 }
 
-article {
-	line-height: 30px;
-}
-
 img[alt=AboutLogo] { 
 	float: left;
 }
