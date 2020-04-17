@@ -69,3 +69,12 @@ h3, h1, h2 {
 	color: #27ae60;
 	font-weight: bold;
 }
+
+code {
+	overflow: auto;
+	display: block;
+}
+
+.highlighter-rouge {
+	display: inline;
+}
