@@ -13,6 +13,3 @@ Copyright (C) Dave Gandy (SIL Open Font License):
  
 Copyright (C) Dave Gandy (SIL Open Font License):
  * css/font-awesome.min.css
- 
-Copyright (C) 2011-2017 the Bootstrap Authors and Twitter, Inc. (MIT)
- * css/bootstrap.css
