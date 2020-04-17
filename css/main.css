@@ -1,6 +1,5 @@
 
 @import url("w3.css");
-@import url("font-awesome.min.css");
 
 body {
 	background-image: url("../img/bg.png");
@@ -66,7 +65,7 @@ td, th {
 	color: #fcfcfc;
 }
 
-h3,h1,h2 {
+h3, h1, h2 {
 	color: #27ae60;
 	font-weight: bold;
 }
