@@ -20,6 +20,13 @@ body {
 	}
 }
 
+@media screen and (min-width: 1000px) {
+	#main {
+		margin-top: 16px !important;
+		margin-bottom: 16px !important;
+	}
+}
+
 img[alt=AboutLogo] { 
 	float: left;
 }
