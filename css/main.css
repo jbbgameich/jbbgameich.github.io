@@ -38,7 +38,7 @@ img[alt=BlogImage] {
 	padding: 5;
 }
 
-img {
+img, video {
 	max-width: 100%;
 }
 
