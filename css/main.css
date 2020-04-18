@@ -81,8 +81,12 @@ h3,h1,h2 {
 code {
 	overflow: auto;
 	display: block;
+	background-color: #e6e6e6ce;
+	border-radius: 5px;
+	padding: 2px;
 }
 
 .highlighter-rouge {
 	display: inline;
+	color: #27ae60;
 }
