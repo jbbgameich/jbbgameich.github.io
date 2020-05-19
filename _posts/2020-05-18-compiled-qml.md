@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to make life easier for your future self wanting to port your apps to compiled QML"
-date:   2020-05-18
+date:   2020-05-18 23:28:43 +2:00
 categories: qt
 ---
 

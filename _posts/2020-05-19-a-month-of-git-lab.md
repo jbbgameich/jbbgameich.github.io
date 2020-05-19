@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A month of git-lab"
-date:   2020-05-19
+date:   2020-05-19 02:54:32 +2:00
 categories: misc
 ---
 
