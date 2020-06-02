@@ -33,6 +33,6 @@ The same works for example with `dh_auto_build` for the building step. A typical
 Please don't override the targets if they worked automatically!
 
 The runtime dendencies will most likely get detected automatically, only special things like QML modules still need to be inserted into the control file.
-After editiing the copyright file, your package is ready to be published.
+After editing the copyright file, your package is ready to be published.
 
 For all more advanced questions, the debian wiki has great articles. It's also very helpful to look at exisiting packages on [anonscm.debian.org/cgit](https://anonscm.debian.org/cgit)
