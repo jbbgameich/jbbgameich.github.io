@@ -35,8 +35,8 @@ Tobias Fella and especially Benjamin Port joined and brought this project forwar
 
 If you want to try git-lab, you can install the current state using pip.
 ```
-pip3 install git+https://invent.kde.org/jbbgameich/git-lab
+pip3 install git+https://invent.kde.org/sdk/git-lab
 ```
 Once git-lab is more feature complete, I'll consider publishing versioned packages.
 
-As git-lab is still pre-release software under development, it is especially helpful if you [report bugs](https://invent.kde.org/jbbgameich/git-lab/issues), they happen! Or even better, if you want to implement a feature that is still missing, please submit a merge request to [the repository](https://invent.kde.org/jbbgameich/git-lab/), maybe even using `git lab mr` :)
+As git-lab is still pre-release software under development, it is especially helpful if you [report bugs](https://invent.kde.org/sdk/git-lab/issues), they happen! Or even better, if you want to implement a feature that is still missing, please submit a merge request to [the repository](https://invent.kde.org/sdk/git-lab/), maybe even using `git lab mr` :)
