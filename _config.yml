@@ -22,7 +22,11 @@ mastodon_url: https://social.tchncs.de/@jbb
 xmpp: jbb@kaidan.im
 
 # Build settings
+highlighter: rouge
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-tidy
