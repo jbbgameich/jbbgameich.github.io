@@ -34,7 +34,7 @@ class Child : public QObject {
 In C++, you can't implicitly access parts of a parent object which is somewhere in memory. This is completely fine and useful, as it forces us to write proper APIs. We are all used to it.
 The problem is: in QML you can. Or, rather you **still** can.
 
-```QML
+```qml
 import QtQuick 2.7
 
 Item {
@@ -68,7 +68,7 @@ I found a few rules you can use today to make sure QML code you write in the mea
 
 You can use the `-U` option of a recent `qmllint` to check for unqualified access. For the example above, it will report the following:
 
-```QML
+```qml
 Warning: unqualified access at 15:13
             helloworld = "Hello World"
             ^^^^^^^^^^

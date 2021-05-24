@@ -34,7 +34,7 @@ Tobias Fella and especially Benjamin Port joined and brought this project forwar
 1. A `snippet` subcommand has been added that allows easy pasting from the command line. It can either upload files or upload text piped into the `git lab snippet` command. There is a `paste` alias for it that should be more familiar to arc users.
 
 If you want to try git-lab, you can install the current state using pip.
-```
+``` bash
 pip3 install git+https://invent.kde.org/sdk/git-lab
 ```
 Once git-lab is more feature complete, I'll consider publishing versioned packages.

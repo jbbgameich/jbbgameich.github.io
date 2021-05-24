@@ -13,13 +13,13 @@ let's set up an openssh server, so we can use the virtual machine from our belov
 Microsoft themselves describe how this can be done in [a tutorial](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
 
 Afterwards, let's set the default shell to powershell, since powershell has more of a chance of being a useful command line environment than cmd.
-```
+```powershell
 New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
 ```
 Now you can ssh into your new virtual machine.
 
 To make Windows somewhat usable for a Unix user, install the basic command line tools (and starship, since the powershell prompt is quite ugly)
-```
+```powershell
 choco install vim
 choco install starship
 choco install busybox
@@ -33,7 +33,7 @@ choco install gnuwin32-coreutils.portable
 
 Using the vim we just installed, we can edit the profile to automatically load sharship and the busybox utils.
 Open the profile in vim `vim $PROFILE`, and enter the following content:
-```
+```powershell
 Invoke-Expression (&starship init powershell)
 
 $env:Path += "C:/ProgramData/chocolatey/lib/busybox/tools/"
