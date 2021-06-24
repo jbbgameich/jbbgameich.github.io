@@ -20,6 +20,7 @@ github_username: JBBgameich
 diaspora_url: https://diasp.org/people/8370c8909b860133979f782bcb452bd5
 mastodon_url: https://social.tchncs.de/@jbb
 xmpp: jbb@kaidan.im
+description: JBB's blog
 
 # Build settings
 highlighter: rouge
