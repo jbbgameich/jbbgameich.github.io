@@ -14,7 +14,9 @@ Many of us use streaming services nowadays to find new music.
 For those of us who are using a Pine Phone, there are no official apps for this purpose available.
 AudioTube is supposed to bridge that gap.
 
+{::nomarkdown}
 <img height=500px style="float: right;  padding: 30px" alt="AudioTube showing an automatic playlist on my Pine Phone" src="/img/audiotube_mobile_playlist.png">
+{:/}
 
 I chose YouTube Music as the provider, because it has a large collection that can be used without a paid account.
 The quality is good enough, and the client library situation is also good.
@@ -23,7 +25,9 @@ and for finding the streaming urls, it makes use of the popular youtube-dl.
 
 Right now, AudioTube can search YouTube Music, list albums and artists, play automatically generated playlists, albums and allows to put your own playlist together.
 
+{::nomarkdown}
 <img height=500px style="float: left; padding: 30px" alt="The album view on mobile" src="/img/audiotube_mobile.png">
+{:/}
 
 ytmusicapi allows for more, there are a few more methods that could be used for e.g automatic artist mixes.
 
