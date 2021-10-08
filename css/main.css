@@ -86,3 +86,8 @@ code {
 	display: inline;
 /* 	color: #27ae60; */
 }
+
+figcaption {
+	color: #6d6d6d;
+	font-size: 14px;
+}
