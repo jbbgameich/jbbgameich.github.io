@@ -91,3 +91,13 @@ figcaption {
 	color: #6d6d6d;
 	font-size: 14px;
 }
+
+.post-img-right {
+	float: right;
+	padding: 30px;
+}
+
+.post-img-left {
+	float: left;
+	padding: 30px;
+}
