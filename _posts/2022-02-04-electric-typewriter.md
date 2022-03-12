@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Connecting an electronic typewriter to a modern computer"
+title:  "Connecting an electric typewriter to a modern computer"
 date:   2022-03-12 02:52:00 +1:00
 ---
 
