@@ -33,7 +33,6 @@ After also implementing the control codes from the table, plus some glue code fo
 
 <figure>
     <video width="400" controls>
-        <source src="https://dl.dropboxusercontent.com/s/v0d8w7om65vewf4/typewriter-printing.mp4" type="video/mp4">
         <source src="/vid/typewriter-printing.mp4" type="video/mp4">
     </video>
     <figcaption>Printing Tux</figcaption>
@@ -46,7 +45,6 @@ For the character "L", the Linux kernel expects "(Left Shift or Right Shift) + L
 
 <figure>
     <video width="400" controls>
-        <source src="https://dl.dropboxusercontent.com/s/pg31ewc2ahwa6sd/typewriter-typing.mp4" type="video/mp4">
         <source src="/vid/typewriter-typing.mp4" type="video/mp4">
     </video>
     <figcaption>Tooting from the typewriter</figcaption>
