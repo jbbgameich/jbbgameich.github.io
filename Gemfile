@@ -25,3 +25,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem "rouge", "~> 3.3"
+
+gem "webrick", "~> 1.7"
