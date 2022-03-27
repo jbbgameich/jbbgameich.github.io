@@ -8,8 +8,7 @@ permalink: /debian-pm/
 	<h1>Debian PM<img height="150" class="w3-margin" src="{{ "/img/debian_pm_logo.svg" | prepend: site.baseurl }}" /></h1>
 </div>
 
-<div class="w3-container w3-border w3-margin">
-<div class="w3-margin" markdown="1">
+<div class="w3-container" markdown="1">
 
 ### Plasma Mobile for Debian
 Debian PM is packaging Plasma Mobile for Debian.
@@ -24,13 +23,13 @@ The repository is signed. The key can be automatically updated, because it's als
 <div class="w3-code notranslate">
 	wget https://jbb.ghsq.ga/debpm/pool/main/d/debian-pm-repository/debian-pm-archive-keyring_20210819_all.deb
 </div>
-<div class="w3-code notranslate">
+<code class="w3-code notranslate">
 	sudo dpkg -i debian-pm-archive-keyring_20210819_all.deb
-</div>
+</code>
 Afterwards, add the following text to `/etc/apt/sources.list.d/debian-pm.list`.
-<div class="w3-code notranslate">
+<code class="w3-code notranslate">
 	deb https://jbb.ghsq.ga/debpm testing main
-</div>
+</code>
 
 After the next `sudo apt update` you can install packages from the repository.
 
@@ -38,12 +37,19 @@ If your device only supports OpenGL ES, like the Pine Phone does, you may want t
 
 ### Install the base packages of Plasma Mobile
 
-The packages required for a minimal Plasma Mobile experience can be installed using the following command:
-<div class="w3-code notranslate">
-	sudo apt install plasma-phone-components plasma-phone-settings plasma-settings plasma-phonebook plasma-angelfish plasma-nm simplelogin
+<div class="w3-panel w3-pale-yellow w3-border">
+	<h4>If you are installing on Mobian…</h4>
+	<p>The default graphical environment on Mobian is Phosh, which you will need to disable in order to run Plasma Mobile. You don't need to uninstall it though, so it can be easily enabled back later.</p>
+	<code class="w3-code notranslate">
+		sudo systemctl disable phosh
+	</code>
 </div>
+
+The packages required for a minimal Plasma Mobile experience can be installed using the following command:
+<code class="w3-code notranslate">
+	sudo apt install plasma-phone-components plasma-phone-settings plasma-settings plasma-phonebook plasma-angelfish plasma-nm simplelogin
+</code>
 
 More apps can be installed from the repository.
 
-</div>
 </div>
