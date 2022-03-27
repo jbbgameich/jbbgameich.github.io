@@ -30,6 +30,7 @@ kramdown:
 
 plugins:
   - jekyll-feed
+  - jekyll-tidy
 exclude:
   - Gemfile
   - Gemfile.lock
