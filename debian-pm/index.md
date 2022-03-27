@@ -47,7 +47,7 @@ If your device only supports OpenGL ES, like the Pine Phone does, you may want t
 
 The packages required for a minimal Plasma Mobile experience can be installed using the following command:
 <code class="w3-code notranslate">
-	sudo apt install plasma-phone-components plasma-phone-settings plasma-settings plasma-phonebook plasma-angelfish plasma-nm simplelogin
+	sudo apt install plasma-phone-components plasma-phone-settings plasma-settings plasma-phonebook plasma-angelfish plasma-nm simplelogin plasma-dialer spacebar
 </code>
 
 More apps can be installed from the repository.
