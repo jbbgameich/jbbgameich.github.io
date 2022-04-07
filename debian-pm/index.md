@@ -57,5 +57,8 @@ On Mobian, the correct user is `mobian`.
 </div>
 
 More apps can be installed from the repository.
+<code class="w3-code notranslate">
+        sudo apt install koko elisa qmlkonsole kalk kasts index alligator kaidan audiotube
+</code>
 
 </div>
