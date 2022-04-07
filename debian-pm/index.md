@@ -50,6 +50,12 @@ The packages required for a minimal Plasma Mobile experience can be installed us
 	sudo apt install plasma-phone-components plasma-phone-settings plasma-settings plasma-phonebook plasma-angelfish plasma-nm simplelogin plasma-dialer spacebar
 </code>
 
+<div class="w3-panel w3-pale-yellow w3-border" markdown="1">
+By default, simplelogin assumes it should automatically log into the `phablet` user.
+If your user account is called differently, you need to replace phablet with your username in `/lib/systemd/system/simplelogin.service`.
+On Mobian, the correct user is `mobian`.
+</div>
+
 More apps can be installed from the repository.
 
 </div>
