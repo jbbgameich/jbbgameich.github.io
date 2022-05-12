@@ -33,7 +33,7 @@ Afterwards, add the following text to `/etc/apt/sources.list.d/debian-pm.list`.
 
 After the next `sudo apt update` you can install packages from the repository.
 
-If your device only supports OpenGL ES, like the Pine Phone does, you may want to install the `debian-pm-repository` package, which configures apt to always install Qt from the debian-pm repository, instead of installing from debian
+<!-- If your device only supports OpenGL ES, like the Pine Phone does, you may want to install the `debian-pm-repository` package, which configures apt to always install Qt from the debian-pm repository, instead of installing from debian -->
 
 ### Install the base packages of Plasma Mobile
 
