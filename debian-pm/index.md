@@ -53,6 +53,15 @@ The packages required for a minimal Plasma Mobile experience can be installed us
 <div class="w3-panel w3-pale-yellow w3-border" markdown="1">
 By default, simplelogin assumes it should automatically log into the `phablet` user.
 If your user account is called differently, you need to replace phablet with your username in `/lib/systemd/system/simplelogin.service`.
+To make it persist through upgrades, you should *not* change this file directly, but type `systemctl edit simplelogin.service` and type the following where the comments instruct you:
+	<code class="w3-code notranslate">
+		[Service]
+		ExecStart=
+		ExecStart=/usr/bin/simplelogin --user mobian --session /usr/share/wayland-sessions/plasma-mobile.desktop
+	</code>
+The first `ExecStart` have to be empty, to reset the `ExecStart` line from the original service file.
+The second `ExecStart` line is copied from the comment block, where the content of the original service file can be found.
+After copying, this line has to be modified, to contain the right username.
 On Mobian, the correct user is `mobian`.
 </div>
 
