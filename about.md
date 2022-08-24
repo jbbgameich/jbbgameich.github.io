@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 You can find me on
-[Twitter](https://twitter.com/netz_kater),
+<!-- [Twitter](https://twitter.com/netz_kater), -->
 [Mastodon](https://social.tchncs.de/@jbb),
 [Matrix](https://matrix.to/#/@jbb:matrix.org),
 [XMPP](https://i.kaidan.im/#jbb@kaidan.im) and of course good old e-mail.
