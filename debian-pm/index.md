@@ -19,6 +19,9 @@ The repository contains Plasma Mobile, various mobile apps and Qt built for Open
 <a class="w3-margin-right w3-button w3-white w3-border" href="https://gitlab.com/debian-pm">Source code on GitLab</a>
 
 ### How to use this repository
+
+The packages are intended to be used on a Debian testing base.
+
 The repository is signed. The key can be automatically updated, because it's also a package in the repository. For the first-time install, you need to download and install the package manually, afterwards it will be updated using apt. Installing the key this way is reasonably secure, thanks to HTTPS.
 <div class="w3-code notranslate">
 	wget https://jbb.ghsq.ga/debpm/pool/main/d/debian-pm-repository/debian-pm-archive-keyring_20210819_all.deb
@@ -52,8 +55,8 @@ The packages required for a minimal Plasma Mobile experience can be installed us
 
 <div class="w3-panel w3-pale-yellow w3-border" markdown="1">
 By default, simplelogin assumes it should automatically log into the `phablet` user.
-If your user account is called differently, you need to replace phablet with your username in `/lib/systemd/system/simplelogin.service`.
-To make it persist through upgrades, you should *not* change this file directly, but type `systemctl edit simplelogin.service` and type the following where the comments instruct you:
+If your user account is called differently, you need to replace phablet with your username.
+To change the username, run `systemctl edit simplelogin.service` and type the following where the comments instruct you:
 	<code class="w3-code notranslate">
 		[Service]
 		ExecStart=
