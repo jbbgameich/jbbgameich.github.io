@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code used in this Website
-parmalink: /licenses/
+permalink: /licenses/
 ---
 
 
