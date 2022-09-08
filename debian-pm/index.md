@@ -58,8 +58,8 @@ By default, simplelogin assumes it should automatically log into the `phablet` u
 If your user account is called differently, you need to replace phablet with your username.
 To change the username, run `systemctl edit simplelogin.service` and type the following where the comments instruct you:
 	<code class="w3-code notranslate">
-		[Service]
-		ExecStart=
+		[Service]<br>
+		ExecStart=<br>
 		ExecStart=/usr/bin/simplelogin --user mobian --session /usr/share/wayland-sessions/plasma-mobile.desktop
 	</code>
 The first `ExecStart` have to be empty, to reset the `ExecStart` line from the original service file.
