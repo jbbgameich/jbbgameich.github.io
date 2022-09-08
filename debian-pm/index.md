@@ -55,7 +55,7 @@ The packages required for a minimal Plasma Mobile experience can be installed us
 
 <div class="w3-panel w3-pale-yellow w3-border" markdown="1">
 By default, simplelogin assumes it should automatically log into the `phablet` user.
-If your user account is called differently, you need to replace phablet with your username.
+If your user account is called differently, you need to configure the correct username.
 To change the username, run `systemctl edit simplelogin.service` and type the following where the comments instruct you:
 	<code class="w3-code notranslate">
 		[Service]<br>
