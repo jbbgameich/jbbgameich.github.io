@@ -65,7 +65,7 @@ To change the username, run `systemctl edit simplelogin.service` and type the fo
 The first `ExecStart` have to be empty, to reset the `ExecStart` line from the original service file.
 The second `ExecStart` line is copied from the comment block, where the content of the original service file can be found.
 After copying, this line has to be modified, to contain the right username.
-On Mobian, the correct user is `mobian`.
+On Mobian, the default user is `mobian`.
 </div>
 
 More apps can be installed from the repository.
