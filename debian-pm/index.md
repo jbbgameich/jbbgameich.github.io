@@ -30,11 +30,11 @@ The repository is signed. The key can be automatically updated, because it's als
 	sudo dpkg -i debian-pm-archive-keyring_20210819_all.deb
 </code>
 Afterwards, add the following text to `/etc/apt/sources.list.d/debian-pm.list`.
-<code class="w3-code notranslate">
-	# Faster mirror
-	deb https://debpm.kryptons.eu/debpm testing main
 
-	# Upstream repository
+<code class="w3-code notranslate">
+	# Faster mirror<br>
+	deb https://debpm.kryptons.eu/debpm testing main<br>
+	# Upstream repository<br>
 	deb https://jbb.ghsq.ga/debpm testing main
 </code>
 
