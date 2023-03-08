@@ -40,7 +40,7 @@ $env:Path += "C:/ProgramData/chocolatey/lib/busybox/tools/"
 ```
 
 After a fresh login, you should be greeted by a nice looking prompt, that features git,
-basic command line tools so you don't have too look everything up just to build your software on Windows.
+basic command line tools so you don't have to look everything up just to build your software on Windows.
 
 Tip: powershell has some builtins that have the same name as some of the busybox and coreutils.
 To use the proper coreutil instead, you can use for example `ls.exe` instead of `ls`.
