@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Woodpecker CI with automatic runner creation"
-date:   Sa 13. Mai 18:12:04 CEST 2023
+date:   Sun May 14 01:30:53 CEST 2023
 ---
 
 I've been happily using Woodpecker CI to get CI for my repositories on Codeberg.
