@@ -24,7 +24,7 @@ The packages are intended to be used on a Debian testing base.
 
 The repository is signed. The key can be automatically updated, because it's also a package in the repository. For the first-time install, you need to download and install the package manually, afterwards it will be updated using apt. Installing the key this way is reasonably secure, thanks to HTTPS.
 <div class="w3-code notranslate">
-	wget https://jbb.ghsq.ga/debpm/pool/main/d/debian-pm-repository/debian-pm-archive-keyring_20210819_all.deb
+	wget https://jbb.ghsq.de/debpm/pool/main/d/debian-pm-repository/debian-pm-archive-keyring_20210819_all.deb
 </div>
 <code class="w3-code notranslate">
 	sudo dpkg -i debian-pm-archive-keyring_20210819_all.deb
@@ -35,7 +35,7 @@ Afterwards, add the following text to `/etc/apt/sources.list.d/debian-pm.list`.
 	# Faster mirror<br>
 	deb https://debpm.kryptons.eu/debpm testing main<br>
 	# Upstream repository<br>
-	deb https://jbb.ghsq.ga/debpm testing main
+	deb https://jbb.ghsq.de/debpm testing main
 </code>
 
 After the next `sudo apt update` you can install packages from the repository.
