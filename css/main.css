@@ -2,8 +2,12 @@ body {
 	background-image: url("../img/bg.png");
 }
 
+a {
+	color: #1a733f;
+}
+
 #main {
-	width: 1000px;
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
