@@ -13,8 +13,11 @@ KDE Itinerary is KDE's travel planning app.
 After I understood how it works, adding support for new data sources seemed pretty doable, so I directly moved on to do the same for trains in Lithuania as well.
 
 As a result of this, it is now possible to travel from Berlin to Riga with Itinerary and continue further with the local trains there:
-<img width="250px" style="float: right; padding: 10px" alt="Screenshot of the second part, from Vilnius to Riga on the following day. Afterwards a local train to Sloka follows" src="/img/itinerary/part2.png">
-<img width="250px" style="float: right;  padding: 10px" alt="Screenshot of the first part of the journey from Berlin Hauptbahnhof to Warszawa Gdanska using EC 249, and the next day continuing with IC 144 to Vilnius" src="/img/itinerary/part1.png">
+
+<div class="post-img-right">
+<img class="post-img" alt="Screenshot of the first part of the journey from Berlin Hauptbahnhof to Warszawa Gdanska using EC 249, and the next day continuing with IC 144 to Vilnius" src="/img/itinerary/part1.png">
+<img class="post-img" alt="Screenshot of the second part, from Vilnius to Riga on the following day. Afterwards a local train to Sloka follows" src="/img/itinerary/part2.png">
+</div>
 
 The connection is still far from good, but fear I can't fix that in software.
 
@@ -41,7 +44,7 @@ Getting their API to work well was a bit more difficult though, as it doesn't pr
 For example coordinates for stations. Those are needed to select where to search for trains going from a station.
 Luckily, exporting the list of stations and their coordinates from OpenStreetMap was relatively easy and provided me with all the data I needed.
 
-<img width="250px" style="float: right; padding: 10px" alt="A route from Belgrade Center to Podgorica, shown on a map by KDE Itinerary" src="/img/itinerary/montenegro.png">
+<img class="post-img post-img-right" alt="A route from Belgrade Center to Podgorica, shown on a map by KDE Itinerary" src="/img/itinerary/montenegro.png">
 
 Thanks to that Itinerary can now even show the route on a map properly.
 

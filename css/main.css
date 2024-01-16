@@ -96,12 +96,34 @@ figcaption {
 	font-size: 14px;
 }
 
-.post-img-right {
-	float: right;
-	padding: 30px;
+@media screen and (min-width: 1000px) {
+	.post-img {
+		padding: 15px;
+		max-width: 250px;
+	}
+
+	.post-img-right {
+		float: right;
+	}
+
+	.post-img-left {
+		float: left;
+	}
 }
 
-.post-img-left {
-	float: left;
-	padding: 30px;
+@media screen and (max-width: 1000px) {
+	.post-img {
+		padding: 10px;
+		max-height: 800px;
+	}
+
+	.post-img-right {
+		float: center;
+		padding: 10px;
+	}
+
+	.post-img-left {
+		float: center;
+		padding: 10px;
+	}
 }
