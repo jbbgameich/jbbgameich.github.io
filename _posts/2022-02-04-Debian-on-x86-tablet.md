@@ -10,7 +10,7 @@ This makes booting normal linux distribution images impossible.
 This device had another limitation, it didn't have a menu to boot from USB.
 
 <figure>
-    <img alt="The tablet and the Pine Phone" src="/img/x86-tablet.jpg" width="45%">
+    {% include img.html alt="The tablet and the Pine Phone" src="/img/x86-tablet.jpg" width="45%" %}
     <figcaption>Taking good pictures at 3 am is hard.</figcaption>
 </figure>
 

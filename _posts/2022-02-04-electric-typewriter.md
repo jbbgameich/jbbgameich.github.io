@@ -17,7 +17,7 @@ The 26-pin connector is a port used in the GDR, which speaks a faily standard rs
 In fact, the USB TTL adapter I usually use for routers, worked on it after some creative wiring.
 
 <figure>
-    <img alt="Version 1.0 of the typewriter interface" src="/img/typewriter_interface_1_0.jpeg" width="400">
+    {% include img.html alt="Version 1.0 of the typewriter interface" src="/img/typewriter_interface_1_0.jpeg" width="400" %}
     <figcaption>The initial attempt at connecting, with lots of tape and no proper connector</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ For the character "L", the Linux kernel expects "(Left Shift or Right Shift) + L
 Once that was all done, I ordered a proper connector so that I could easily put everything back together after putting it in the drawer.
 
 <figure>
-    <img alt="Version 2.0 of the typewriter interface" src="/img/typewriter_interface_2_0.JPG" width="400">
+    {% include img.html alt="Version 2.0 of the typewriter interface" src="/img/typewriter_interface_2_0.JPG" width="400" %}
     <figcaption>The final result, with a proper connector</figcaption>
 </figure>
 
