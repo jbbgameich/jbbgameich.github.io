@@ -12,7 +12,7 @@ We also have a little web interface running at [transitous.org](https://transito
 
 We are building this service based on great existing software, in particularly [MOTIS](https://motis-project.de).
 
-{% include img.html width="1000px" class="post-img" alt="Screenshot of the Transitous web interface, showing the positions of long-distance transit vehicles in Germany, the Netherlands, Switzerland, Latvia, Estonia and Sweden" src="/img/transitous-web.png" %}
+{% include img.html width="1000px" alt="Screenshot of the Transitous web interface, showing the positions of long-distance transit vehicles in Germany, the Netherlands, Switzerland, Latvia, Estonia and Sweden" src="/img/transitous-web.png" %}
 
 Now, to make this really useful, we need data on more regions.
 Luckily, for most regions and countries that is fairly easy. Most transport agencies and countries make GTFS feeds available, that we can just use.
