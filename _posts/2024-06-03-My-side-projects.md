@@ -9,7 +9,7 @@ In addition to my larger projects in KDE and elsewhere,
 I've been working on a number of small projects over the years.
 
 Since these naturally are hard to find, I want to present each one here briefly.
-Maybe you'll find some of it useful.
+Maybe you'll find some of them useful.
 
 ## MatePay
 
