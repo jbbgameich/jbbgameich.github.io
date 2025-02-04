@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: JBB
-  
+title: Jonah Brüchert
+
 url: "https://jbb.ghsq.de"
-github_username: JBBgameich
+github_username: jbruechert
 diaspora_url: https://diasp.org/people/8370c8909b860133979f782bcb452bd5
 mastodon_url: https://social.tchncs.de/@Jbb
 xmpp: jbb@kaidan.im
