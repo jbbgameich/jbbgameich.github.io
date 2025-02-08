@@ -4,6 +4,10 @@ title: Debian PM
 permalink: /debian-pm/
 ---
 
+<div class="w3-panel w3-pale-yellow w3-border">
+        <p>This project is pretty much replaced by packages in upstream Debian</p>
+</div>
+
 <div class="w3-center">
 	<h1>Debian PM<img height="150" class="w3-margin" src="{{ "/img/debian_pm_logo.svg" | prepend: site.baseurl }}" /></h1>
 </div>
