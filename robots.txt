@@ -17,13 +17,6 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-# Block common crawl
-# I have mixed feelings on this one, but many models are trained on this data
-# It is also used to bootstrap new search indices though
-# https://commoncrawl.org/ccbot
-User-agent: CCBot
-Disallow: /
-
 # Facebook
 # https://developers.facebook.com/docs/sharing/bot/
 User-agent: FacebookBot
