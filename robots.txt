@@ -1,43 +1,49 @@
 User-agent: *
 Disallow: /debpm/
 
-# I know this can just be _totally_ ignored by crawlers
-# But let's hope they behave well :)
-
-# Code: https://github.com/ellie/notes
-# Source: https://darkvisitors.com/
-
-# OpenAI, ChatGPT
-# https://platform.openai.com/docs/gptbot
-User-agent: GPTBot
-Disallow: /
-
-# Google AI (Bard, etc)
-# https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
-User-agent: Google-Extended
-Disallow: /
-
-# Facebook
-# https://developers.facebook.com/docs/sharing/bot/
-User-agent: FacebookBot
-Disallow: /
-
-# Cohere.ai
-# https://darkvisitors.com/agents/cohere-ai
-User-agent: cohere-ai
-Disallow: /
-
-# Perplexity
-# https://docs.perplexity.ai/docs/perplexitybot
-User-agent: PerplexityBot
-Disallow: /
-
-# Anthropic
-# https://darkvisitors.com/agents/anthropic-ai
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: Amazonbot
 User-agent: anthropic-ai
-Disallow: /
-
-# ...also anthropic
-# https://darkvisitors.com/agents/claudebot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Brightbot 1.0
+User-agent: Bytespider
+User-agent: ChatGPT-User
+User-agent: Claude-Web
 User-agent: ClaudeBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Crawlspace
+User-agent: Diffbot
+User-agent: DuckAssistBot
+User-agent: FacebookBot
+User-agent: FriendlyCrawler
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: GPTBot
+User-agent: iaskspider/2.0
+User-agent: ICC-Crawler
+User-agent: ImagesiftBot
+User-agent: img2dataset
+User-agent: ISSCyberRiskCrawler
+User-agent: Kangaroo Bot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: OAI-SearchBot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: PanguBot
+User-agent: PerplexityBot
+User-agent: PetalBot
+User-agent: Scrapy
+User-agent: SemrushBot-OCOB
+User-agent: SemrushBot-SWA
+User-agent: Sidetrade indexer bot
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: YouBot
 Disallow: /
