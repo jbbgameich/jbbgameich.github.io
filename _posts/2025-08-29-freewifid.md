@@ -31,6 +31,7 @@ impl CaptivePortal for LtgLinkProvider {
     }
 
     fn login(&self, http_client: &ureq::Agent) -> anyhow::Result<()> {
+        // Store any cookies the landing page might send
         common::follow_automatic_redirect(http_client)?;
 
         http_client
