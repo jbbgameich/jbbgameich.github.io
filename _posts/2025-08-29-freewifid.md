@@ -11,7 +11,7 @@ Accepting the same terms and conditions every time gets annoying pretty quickly,
 
 It continously scans for Wi-Fi networks it knows, and sends you a notification when it found one it can automatically connect to. You can then allow it to connect to that network automatically in the future.
 
-![A freewifid notification asking wether to connect to a known network](/img/freewifid/notification.png)
+![A freewifid notification asking whether to connect to a known network](/img/freewifid/notification.png)
 
 
 ## Adding support for new captive portals
