@@ -18,8 +18,8 @@ My solution to that was to build a docker proxy, that creates VMs using docker-m
 Setting that up is reasonably simple:
 * Install docker-machine. I recommend using the [fork by GitLab](https://gitlab-docker-machine-downloads.s3.amazonaws.com/main/index.html)
 * Install the backend for your cloud provider. For Hetzner I use [this one](https://github.com/JonasProgrammer/docker-machine-driver-hetzner)
-* [Grab a binary release of docker-proxy](https://codeberg.org/jbb/docker-proxy/releases/tag/v0.1.0) (if you need arm executables), or compile it yourself.
-* Create a systemd unit to start the service on boot in `/etc/systemd/system/docker.proxy.service`.
+* [Grab a binary release of docker-proxy](https://codeberg.org/jbb/docker-proxy/releases/) (if you need arm executables), or compile it yourself.
+* Create a systemd unit to start the service on boot in `/etc/systemd/system/docker-proxy.service`.
 This particular one just runs it on the `woodpecker-agent` user that you may already have if you use Woodpecker CI.
 
 ```toml
