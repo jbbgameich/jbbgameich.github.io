@@ -11,7 +11,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	color: #22303e  ;
+	color: #22303e;
 }
 
 @media screen and (max-width: 1000px) {
@@ -94,6 +94,15 @@ code {
 figcaption {
 	color: #6d6d6d;
 	font-size: 14px;
+}
+
+.post-content {
+	font-size: 16px;
+}
+
+.wrap {
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 @media screen and (min-width: 1000px) {
