@@ -222,7 +222,12 @@ You should now be able to search for your stops and find routes:
 
 Once it is ready, the GTFS feed needs to be uploaded to a location that provides a stable url even if the feed is updated. The webserver should also support the `Last-Modified`-header, so the feed can be downloaded only when needed. A simple webserver serving a directory like nginx or apache works well here, but something like Nextcloud works equally well if you already have access to an instance of it.
 
+Since the converted dataset needs to be regularly updated, I recommend setting up a CI pipeline for that purpose. The free CI offered by gitlab.com and GitHub is usually good enough for that.
+I recommend setting up [pfaedle](https://github.com/ad-freiburg/pfaedle) in the pipeline, to automatically add the exact path the vehicles take based on routing on OpenStreetMap data.
+
 Once you have a URL, you can [add it to Transitous](https://transitous.org/doc/#static-feeds-timetable) and places where other developers can find it, like the [Mobility Database](https://gtfs-validator.mobilitydata.org/)
 
 If you are interested in some examples of datasets generated this way, check out the Mobility Database entries for [LTG Link](https://mobilitydatabase.org/feeds/gtfs/mdb-2991) and [ŽPCG](https://mobilitydatabase.org/feeds/gtfs/mdb-2377).
 You can find a list with some examples of feeds I generate [here](https://jbb.ghsq.de/gtfs-feeds/), including the generator source code based on the `gtfs-generator`.
+
+You can always ask in the [Transitous Matrix channel](https://riot.spline.de/#/room/#transitous:matrix.spline.de) in case you hit any roadblocks with your own GTFS-converter projects.
