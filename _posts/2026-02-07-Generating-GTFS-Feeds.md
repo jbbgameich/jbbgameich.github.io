@@ -41,7 +41,7 @@ a stop time from the API of ŽPCG (Railway in Montenegro):
 }
 ```
 
-It is immidiately visible that we get the stop times, in for some reason extreme precision.
+It is immediately visible that we get the stop times, in for some reason extreme precision.
 We also get coordinates for the location, which makes conversion to GTFS much easier. Unfortunately the coordinates from this dataset are not exactly great, and can easily be off by multiple kilometers, but they nevertheless provide a rough estimate that we can improve on by matching them to OpenStreetMap.
 
 The railway-data enthusiasts will also notice that we get a UIC country code and a stop code, which we can concatinate to get a full UIC stop identifier. We can make use of that for OSM matching later on.
@@ -83,7 +83,7 @@ There are often variations in spelling, particularly if the data covers neighbou
 Since this problem comes up repeatedly, I am slowly improving my rust library (`gtfs-generator`) for this, so it can hopefully handle most of these cases automatically at some point.
 It aims to be very customizable, so the matching criteria needs to be supplied by the library user.
 The following example matches a stop if it has a matching uic_ref tag, which is a strong identifier.
-If no node has such a matching tag, all nodes in the radius of 20km are considered, if their name is either a direct match, an abbreviation of the other spelling, similar enough or has matching words.
+If no node has such a matching tag, all nodes in the radius of 20km are considered if their name is either a direct match, an abbreviation of the other spelling, similar enough or has matching words.
 The matching radius can be overridden in each query, so if nothing is known yet, the first guess can be the middle of the country with a large enough radius.
 As soon as one station is known, the ones appearing on the same route must be fairly close.
 The matching quality strongly depends on making a good guess of the distance from the previous stop, as it greatly reduces the risk of similarly named stations being mismatched.
@@ -195,7 +195,7 @@ A new GTFS feed is rarely perfect on the first try. I recommend running it throu
 After all obvious issues are fixed (missing fields, broken references), you can use the [validator of the French government](https://transport.data.gouv.fr/validation?type=gtfs&selected_subtile=gtfs&selected_tile=public-transit) and the [canonical GTFS validator](https://gtfs-validator.mobilitydata.org/).
 It is worth using both, as they for slightly different issues.
 
-Ones all critical errors reported by the validators are fixed, you can finally test the result in MOTIS. You can get a precompiled static binary from [GitHub Releases](https://github.com/motis-project/motis/).
+Once all critical errors reported by the validators are fixed, you can finally test the result in MOTIS. You can get a precompiled static binary from [GitHub Releases](https://github.com/motis-project/motis/).
 Afterwards create a minimal config file using `./motis config out.gtfs.zip`.
 The API on it's own is not too useful for testing, so add 
 
