@@ -23,3 +23,9 @@ Generator source code: [https://gitlab.spline.de/spline/transitous/ltg-link-gtfs
 Feed url: [https://jbb.ghsq.de/gtfs/ro-railway.gtfs.zip](https://jbb.ghsq.de/gtfs/ro-railway.gtfs.zip)
 
 Generator source code: [https://gitlab.spline.de/spline/transitous/gov-ro-gtfs](https://gitlab.spline.de/spline/transitous/gov-ro-gtfs)
+
+## European Sleeper
+
+Feed url: [https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip](https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip)
+
+Generator source code: [https://gitlab.spline.de/spline/transitous/european-sleeper-gtfs](https://gitlab.spline.de/spline/transitous/european-sleeper-gtfs)
