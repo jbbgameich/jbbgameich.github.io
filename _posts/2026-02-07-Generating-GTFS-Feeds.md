@@ -8,7 +8,7 @@ categories: kde
 Transitous is a project that runs a public transport routing service that aspires to work wold-wide.
 The biggest leaps forward in coverage happened in the beginning, when it was just a matter of finding the right urls to download the schedules from. Most operators provide them in the GTFS format, which is also used in Google Transit and a few other apps.
 
-However, the number of readily available GFTFS schedules (so called feeds) that we are not using yet is starting to become quite small.
+However, the number of readily available GTFS schedules (so called feeds) that we are not using yet is starting to become quite small.
 As evident when comparing with Google Transit, there are still a number of feeds that are only privately shared with Google. This is not great from a standpoint of preventing monopolies and also a major problem for free and open-source projects which don't have the resources to discuss with each operator individually or to even buy access to the data from them.
 Beyond that case, there is still a suprisingly large number of places in the world that do not publish any schedules in a standardized format, and that is something that we can fix.
 
