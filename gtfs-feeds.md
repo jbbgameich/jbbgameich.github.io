@@ -32,8 +32,10 @@ Generator source code: [https://gitlab.spline.de/spline/transitous/european-slee
 
 ## ELRON Realtime
 
-vehicle positions url: [https://jbb.ghsq.de/gtfs/elron/VehiclePositions](https://jbb.ghsq.de/gtfs/elron/VehiclePositions)
+Static feed url: [https://eu-gtfs.remix.com/elron.zip](https://eu-gtfs.remix.com/elron.zip)
 
-trip updates url (derived from vehicle positions): [https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb](https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb)
+Vehicle positions url: [https://jbb.ghsq.de/gtfs/elron/VehiclePositions](https://jbb.ghsq.de/gtfs/elron/VehiclePositions)
+
+Trip updates url (derived from vehicle positions): [https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb](https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb)
 
 Exporter source code: [codeberg.org/jbb/elron-rt](https://codeberg.org/jbb/elron-rt)
