@@ -29,3 +29,11 @@ Generator source code: [https://gitlab.spline.de/spline/transitous/gov-ro-gtfs](
 Feed url: [https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip](https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip)
 
 Generator source code: [https://gitlab.spline.de/spline/transitous/european-sleeper-gtfs](https://gitlab.spline.de/spline/transitous/european-sleeper-gtfs)
+
+## ELRON Realtime
+
+vehicle positions url: [https://jbb.ghsq.de/gtfs/elron/VehiclePositions](https://jbb.ghsq.de/gtfs/elron/VehiclePositions)
+
+trip updates url (derived from vehicle positions): [https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb](https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb)
+
+Exporter source code: [codeberg.org/jbb/elron-rt](https://codeberg.org/jbb/elron-rt)
