@@ -193,7 +193,7 @@ The code for building the GTFS data looks somewhat like this:
 
 A new GTFS feed is rarely perfect on the first try. I recommend running it through [gtfsclean](https://github.com/public-transport/gtfsclean) first.
 After all obvious issues are fixed (missing fields, broken references), you can use the [validator of the French government](https://transport.data.gouv.fr/validation?type=gtfs&selected_subtile=gtfs&selected_tile=public-transit) and the [canonical GTFS validator](https://gtfs-validator.mobilitydata.org/).
-It is worth using both, as they for slightly different issues.
+It is worth using both, as they check for slightly different issues.
 
 Once all critical errors reported by the validators are fixed, you can finally test the result in MOTIS. You can get a precompiled static binary from [GitHub Releases](https://github.com/motis-project/motis/).
 Afterwards create a minimal config file using `./motis config out.gtfs.zip`.
@@ -228,6 +228,6 @@ I recommend setting up [pfaedle](https://github.com/ad-freiburg/pfaedle) in the 
 Once you have a URL, you can [add it to Transitous](https://transitous.org/doc/#static-feeds-timetable) and places where other developers can find it, like the [Mobility Database](https://gtfs-validator.mobilitydata.org/)
 
 If you are interested in some examples of datasets generated this way, check out the Mobility Database entries for [LTG Link](https://mobilitydatabase.org/feeds/gtfs/mdb-2991) and [ŽPCG](https://mobilitydatabase.org/feeds/gtfs/mdb-2377).
-You can find a list with some examples of feeds I generate [here](https://jbb.ghsq.de/gtfs-feeds/), including the generator source code based on the `gtfs-generator`.
+You can find a list with some examples of feeds I generate [here](https://jbb.ghsq.de/gtfs-feeds/), including the generator source code based on the `gtfs-generator` crate.
 
 You can always ask in the [Transitous Matrix channel](https://riot.spline.de/#/room/#transitous:matrix.spline.de) in case you hit any roadblocks with your own GTFS-converter projects.
