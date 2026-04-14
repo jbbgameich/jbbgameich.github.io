@@ -39,3 +39,9 @@ Vehicle positions url: [https://jbb.ghsq.de/gtfs/elron/VehiclePositions](https:/
 Trip updates url (derived from vehicle positions): [https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb](https://crowdsourcing.transitous.org/gtfsrt/ee-elron/trip-updates.pb)
 
 Exporter source code: [codeberg.org/jbb/elron-rt](https://codeberg.org/jbb/elron-rt)
+
+## Georgian Railway
+
+Feed url: [https://jbb.ghsq.de/gtfs/ge-georgian-railway.gtfs.zip](https://jbb.ghsq.de/gtfs/ge-georgian-railway.gtfs.zip)
+
+Generator source code: [https://gitlab.spline.de/spline/transitous/georgian-railway-gtfs](https://gitlab.spline.de/spline/transitous/georgian-railway-gtfs)
