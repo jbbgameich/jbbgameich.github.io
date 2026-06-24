@@ -50,9 +50,11 @@ Feed url: [https://jbb.ghsq.de/gtfs/ge-georgian-railway.gtfs.zip](https://jbb.gh
 
 Generator source code: [https://gitlab.spline.de/spline/transitous/georgian-railway-gtfs](https://gitlab.spline.de/spline/transitous/georgian-railway-gtfs)
 
-## Danmark Realtime (SIRI-ET)
+## Denmark Realtime (SIRI-ET)
 
-Feed url: [jbb.ghsq.de/siri/danmark](https://jbb.ghsq.de/siri/danmark)
+Static feed url: [www.rejseplanen.info/labs/GTFS.zip](https://www.rejseplanen.info/labs/GTFS.zip)
+
+Feed url (SIRI-ET): [jbb.ghsq.de/siri/danmark](https://jbb.ghsq.de/siri/danmark)
 
 Exporter source code: [gitlab.spline.de/spline/transitous/danmark-rt](https://gitlab.spline.de/spline/transitous/danmark-rt)
 
