@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GTFS Feeds
+title: Public Transport Data
 permalink: /gtfs-feeds/
 ---
 
@@ -45,3 +45,9 @@ Exporter source code: [codeberg.org/jbb/elron-rt](https://codeberg.org/jbb/elron
 Feed url: [https://jbb.ghsq.de/gtfs/ge-georgian-railway.gtfs.zip](https://jbb.ghsq.de/gtfs/ge-georgian-railway.gtfs.zip)
 
 Generator source code: [https://gitlab.spline.de/spline/transitous/georgian-railway-gtfs](https://gitlab.spline.de/spline/transitous/georgian-railway-gtfs)
+
+## Danmark Realtime (SIRI-ET)
+
+Feed url: [jbb.ghsq.de/siri/danmark](https://jbb.ghsq.de/siri/danmark)
+
+Exporter source code: [gitlab.spline.de/spline/transitous/danmark-rt](https://gitlab.spline.de/spline/transitous/danmark-rt)
