@@ -30,6 +30,10 @@ Feed url: [https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip](https://jbb.ghsq.de/gtfs/eu-
 
 Generator source code: [https://gitlab.spline.de/spline/transitous/european-sleeper-gtfs](https://gitlab.spline.de/spline/transitous/european-sleeper-gtfs)
 
+Trip updates url (GTFS-RT): [jbb.ghsq.de/gtfs/european-sleeper/TripUpdates](https://jbb.ghsq.de/gtfs/european-sleeper/TripUpdates)
+
+SIRI-ET: [jbb.ghsq.de/siri/european-sleeper](https://jbb.ghsq.de/siri/european-sleeper)
+
 ## ELRON Realtime
 
 Static feed url: [https://eu-gtfs.remix.com/elron.zip](https://eu-gtfs.remix.com/elron.zip)
@@ -51,3 +55,13 @@ Generator source code: [https://gitlab.spline.de/spline/transitous/georgian-rail
 Feed url: [jbb.ghsq.de/siri/danmark](https://jbb.ghsq.de/siri/danmark)
 
 Exporter source code: [gitlab.spline.de/spline/transitous/danmark-rt](https://gitlab.spline.de/spline/transitous/danmark-rt)
+
+## railway.gov.gr
+
+Feed url: [jbb.ghsq.de/gtfs/gr-railway-gov.gtfs.zip](https://jbb.ghsq.de/gtfs/gr-railway-gov.gtfs.zip)
+
+Exporter source code: [gitlab.spline.de/spline/transitous/railway-gov-gr-gtfs](https://gitlab.spline.de/spline/transitous/railway-gov-gr-gtfs)
+
+Vehicle positions url: [jbb.ghsq.de/gtfs/railway-gov-gr/VehiclePositions](http://jbb.ghsq.de/gtfs/railway-gov-gr/VehiclePositions)
+
+Trip updates url (derived from vehicle positions): [crowdsourcing.transitous.org/gtfsrt/gr-Hellenic-Train/trip-updates.pb](https://crowdsourcing.transitous.org/gtfsrt/gr-Hellenic-Train/trip-updates.pb)
