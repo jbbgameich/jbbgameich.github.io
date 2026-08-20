@@ -67,3 +67,9 @@ Exporter source code: [gitlab.spline.de/spline/transitous/railway-gov-gr-gtfs](h
 Vehicle positions url: [jbb.ghsq.de/gtfs/railway-gov-gr/VehiclePositions](http://jbb.ghsq.de/gtfs/railway-gov-gr/VehiclePositions)
 
 Trip updates url (derived from vehicle positions): [crowdsourcing.transitous.org/gtfsrt/gr-Hellenic-Train/trip-updates.pb](https://crowdsourcing.transitous.org/gtfsrt/gr-Hellenic-Train/trip-updates.pb)
+
+## South Caucasus Railway
+
+Feed url: [jbb.ghsq.de/gtfs/am-railway.gtfs.zip](https://jbb.ghsq.de/gtfs/am-railway.gtfs.zip)
+
+Generator source code: [gitlab.spline.de/spline/transitous/railway-am-gtfs/](https://gitlab.spline.de/spline/transitous/railway-am-gtfs/)
