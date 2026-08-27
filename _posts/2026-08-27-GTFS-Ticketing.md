@@ -9,7 +9,7 @@ As you might already know, Transitous is a project that runs a public transport 
 To make Transitous results more useful, there needs to be a simple way to book the individual sections of a multi-modal route.
 It is important to mention that Transitous can not legally sell tickets itself, and there are no plans to change that, so booking in this case means directing users to a ticket shop that can sell tickets for the route.
 
-![LTG Link route from Vilnius to Kaunas displaying a "Tickets" button](/img/ticketing/vilnius-kaunas.png)
+{% include img.html alt="LTG Link route from Vilnius to Kaunas displaying a Tickets button" src="/img/ticketing/vilnius-kaunas.png" %}
 
 ## Ticketing Extension
 
@@ -25,6 +25,8 @@ However, this requires a separate shop-specific server side step to convert the 
 
 ## My work
 
+{% include img.html width="500" style="max-width: 400px" class="post-img post-img-left" alt="Itinerary screenshot showing bookable connections from Vilnius to Riga" src="/img/ticketing/itinerary.png" %}
+
 Transitous is mostly just an instance of the MOTIS routing engine, so much of the work happened [there](https://github.com/motis-project/motis/pull/1414).
 
 This work has partially been funded by [NLnet](https://nlnet.nl/) through the [NGI0 Commons Fund](https://nlnet.nl/commonsfund) with financial support from the European Commission's Next Generation Internet programme.
@@ -38,6 +40,8 @@ Since the problem of needing to translate the url parameters for the ticket shop
 Since I already host it, it also removes the burden of needing to run a server side component for each feed one publishes.
 
 You can see the results on Transitous: [Route from Nikšić to Podgorica](https://api.transitous.org/?fromPlace=me-zpcg_25&toPlace=me-zpcg_8&withFares=true&numLegAlternatives=3&joinInterlinedLegs=false&noCompulsoryReservation=false&maxMatchingDistance=250&fromName=Nikšić%2C+Montenegro&toName=Podgorica%2C+Montenegro&fromPos=42.770466%2C18.944532&toPos=42.432007%2C19.269415#10.12/42.6015/18.9347).
+
+It also already works in KDE Itinerary.
 
 ## Adding Ticketing
 
