@@ -54,7 +54,7 @@ Generator source code: [https://gitlab.spline.de/spline/transitous/georgian-rail
 
 Static feed url: [www.rejseplanen.info/labs/GTFS.zip](https://www.rejseplanen.info/labs/GTFS.zip)
 
-Feed url (SIRI-ET): [jbb.ghsq.de/siri/danmark](https://jbb.ghsq.de/siri/danmark)
+Feed url (SIRI-ET): [gtfs.spline.de/siri/danmark/estimated-timetable.xml](http://gtfs.spline.de/siri/danmark/estimated-timetable.xml)
 
 Exporter source code: [gitlab.spline.de/spline/transitous/danmark-rt](https://gitlab.spline.de/spline/transitous/danmark-rt)
 
